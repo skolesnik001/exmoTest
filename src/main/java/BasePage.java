@@ -54,7 +54,7 @@ public abstract class BasePage {
     }
 
 
-    public boolean isElementPresent(WebDriver driver, By locator) {
+    public boolean isElementPresent(WebDriver driver, By locator) { 
         return driver.findElements(locator).size() > 0;
     }
 
